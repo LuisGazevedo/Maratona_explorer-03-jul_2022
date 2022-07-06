@@ -1,0 +1,121 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@500;700&display=swap');
+
+/*Reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+:root{
+    font-size: 62.5%; /* 1rem = 10px */
+
+}
+
+body{
+    background-color: #edf2ff;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    text-align: center;
+    width: 30rem;
+    margin: 6rem auto;
+}
+
+img.avatar {
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    padding: 0.37rem;
+    border: #4263eb solid 0.4rem ;
+    transition: border 100ms;
+}
+
+img.avatar:hover{
+    border: #364fc7 solid 1rem;
+}
+
+ul {
+    list-style: none;
+    margin: 4.8rem 0 ;
+}
+
+
+h1{
+    margin-top: 2.4rem;
+    margin-bottom: 0.8rem;
+    font-size: 3rem;
+    color: #00082f;
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+    color: #00082f;
+    opacity: 0.8;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+ul li a {
+    display: flex;
+    align-items: center;
+    height: 5.3rem;
+    justify-content: center;
+
+    background-color: #4263eb;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+
+    margin-bottom: 1.6rem ;
+    border-radius: 0.6rem;
+
+    transition: background 400ms;
+    transition: font-size 200ms;
+}
+
+.github{
+    background-color: #171515;
+}
+
+
+.insta{
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+}
+
+.linkedin{
+    background-color: #0e76a8;
+}
+
+ul li a:hover{
+    font-size: 1.7rem;
+}
+
+i{
+    margin: 1.5rem;
+}
+
+footer{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #00082f;
+    opacity: 0.6;
+    transition: opacity 400ms;
+}
+
+footer:hover{
+    opacity: 1;
+}
+
+footer a {
+    color: #00082f;
+}
