@@ -54,6 +54,11 @@ h1{
     margin-bottom: 0.8rem;
     font-size: 3rem;
     color: #00082f;
+    transition: font-size 250ms;
+}
+
+h1:hover{
+    font-size: 3.5rem;
 }
 
 h3{
